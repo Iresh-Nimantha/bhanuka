@@ -10,8 +10,8 @@ import { EnvelopeIcon, EnvelopeOpenIcon } from "@heroicons/react/24/outline";
 import { FaFacebookF, FaTiktok, FaWhatsapp } from "react-icons/fa";
 export function SpeedDialWithTextOutside() {
   return (
-    <div className=" fixed  bottom-2 right-8 mr-8">
-      <div className="absolute  inset-0 border-2 border-transparent rounded-full spointer-events-none animate-neon-border"></div>
+    <div className=" fixed  bottom-2 right-2">
+      <div className="absolute inset-0 border-2 border-transparent rounded-full spointer-events-none animate-neon-border"></div>
       <SpeedDial>
         <SpeedDialHandler>
           <IconButton size="lg" className="rounded-full">
