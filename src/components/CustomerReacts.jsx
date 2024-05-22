@@ -1,10 +1,12 @@
+import React from "react";
+
 export function CustomerReacts() {
   return (
-    <div>
-      <h1 className=" relative left-12 top-12 text-4xl font-mono md:text-5xl [text-shadow:5px_5px_9px_black]">
-        Custommer Reactions....
+    <div className="p-4">
+      <h1 className="relative left-4  top-4 md:top-12 text-3xl md:text-4xl lg:text-5xl font-mono [text-shadow:5px_5px_9px_black]">
+        Customer Reactions....
       </h1>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mx-16 mt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-4 md:mx-14 mt-8 md:mt-20">
         <div className="grid gap-4">
           <div>
             <img
@@ -15,7 +17,7 @@ export function CustomerReacts() {
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center "
+              className="h-auto max-w-full rounded-lg object-cover object-center"
               src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
               alt="gallery-photo"
             />
@@ -45,7 +47,7 @@ export function CustomerReacts() {
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center "
+              className="h-auto max-w-full rounded-lg object-cover object-center"
               src="https://docs.material-tailwind.com/img/team-3.jpg"
               alt="gallery-photo"
             />
@@ -61,7 +63,7 @@ export function CustomerReacts() {
           </div>
           <div>
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center "
+              className="h-auto max-w-full rounded-lg object-cover object-center"
               src="https://docs.material-tailwind.com/img/team-3.jpg"
               alt="gallery-photo"
             />

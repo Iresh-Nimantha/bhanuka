@@ -22,11 +22,12 @@ function App() {
       <NavListMenu />
       <LogoHead />
       <GalleryWithTab />
-      <SpeedDialWithTextOutside />
       <CustomerReacts />
+      <SpeedDialWithTextOutside />
       <AboutUs />
       <FooterWithLogo />
-      {/*<Background /> */}
+
+      {/* <Background /> */}
     </div>
   );
 }

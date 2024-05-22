@@ -8,10 +8,11 @@ import {
 } from "@material-tailwind/react";
 import { EnvelopeIcon, EnvelopeOpenIcon } from "@heroicons/react/24/outline";
 import { FaFacebookF, FaTiktok, FaWhatsapp } from "react-icons/fa";
+
 export function SpeedDialWithTextOutside() {
   return (
-    <div className=" fixed  bottom-2 right-2">
-      <div className="absolute inset-0 border-2 border-transparent rounded-full spointer-events-none animate-neon-border"></div>
+    <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8">
+      <div className="absolute inset-0 border-2 border-transparent rounded-full pointer-events-none animate-neon-border"></div>
       <SpeedDial>
         <SpeedDialHandler>
           <IconButton size="lg" className="rounded-full">
@@ -21,7 +22,7 @@ export function SpeedDialWithTextOutside() {
         </SpeedDialHandler>
         <SpeedDialContent>
           <SpeedDialAction className="h-16 w-16">
-            <FaFacebookF className="h-5 w-5 " style={{ color: "#1877F2" }} />
+            <FaFacebookF className="h-5 w-5" style={{ color: "#1877F2" }} />
             <Typography color="blue-gray" className="text-xs font-normal">
               Facebook
             </Typography>
@@ -43,4 +44,5 @@ export function SpeedDialWithTextOutside() {
     </div>
   );
 }
+
 export default SpeedDialWithTextOutside;
